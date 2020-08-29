@@ -1,0 +1,85 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.ticket {
+  width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.ticket__main {
+  margin-top: 20px;
+  background: 0;
+  border: 0;
+}
+
+.ticket__main .ticket__connector {
+  width: 40px;
+  height: 5px;
+  background: #487ecf;
+  margin-top: 30px;
+}
+
+.ticket__main .ticket__location h1 {
+  margin: 0;
+  color: #487ecf;
+  font-weight: 900;
+}
+
+.ticket__main span {
+  font-size: 10px;
+  color: grey;
+  text-transform: uppercase;
+  display: block;
+}
+
+.ticket__main .ticket__location_destination span {
+  float: right;
+}
+
+.ticket__additional {
+  margin-top: 20px;
+  padding-bottom: 0;
+}
+
+.ticket__additional p {
+  margin: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.ticket__additional span {
+  font-weight: 700;
+}
+
+.ticket__meta .row {
+  margin: 0;
+}
+
+.ticket__meta .col-6 {
+  padding: 0;
+}
+
+.ticket__meta .ticket__section {
+  display: contents;
+  padding: 0;
+  border: 0;
+}
+
+.ticket__meta .ticket__section span {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px;
+}
+
+.ticket__meta .ticket__section p {
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+.ticket__meta .ticket__section:last-child p {
+  margin: 0;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 1 - Step 5</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="card ticket">
+      <div class="card-header d-flex justify-content-between ticket__main">
+        <div class="ticket__location"> <h1>FRA</h1><span>Frankfrut</span> </div>
+        <div class="ticket__connector"></div>
+        <div class="ticket__location ticket__location_destination">
+          <h1>AMS</h1><span>Amsterdam</span>
+        </div>
+      </div>
+      <div class="card-body ticket__additional">
+        <div class="row">
+          <div class="col-4 ticket__section">
+            <p>Flight</p><span>815</span>
+          </div>
+          <div class="col-4 ticket__section"> <p>Date</p><span>23G</span> </div>
+          <div class="col-4 ticket__section"> <p>Seat</p><span>10F</span> </div>
+        </div>
+      </div>
+      <div class="card-body ticket__meta">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group">
+              <div class="list-group-item ticket__section"
+                ><span>Passenger</span>
+                <p>Robert De Niro</p>
+              </div>
+              <div class="list-group-item ticket__section"
+                ><span>Class</span>
+                <p>Business</p>
+              </div>
+              <div class="list-group-item ticket__section"
+                ><span>departure</span>
+                <p>3:45am, Dec 15</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6"
+            ><img class="img-fluid" src="img/qr.svg" alt=""
+          /></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
